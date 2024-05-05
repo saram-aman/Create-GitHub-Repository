@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create GitHub Repository</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create GitHub Repository</h1>
+        <form id="repo-form">
+            <label for="repo-name">Repository Name:</label>
+            <input type="text" id="repo-name" name="repo-name" required>
+            <label for="pat">GitHub Personal Access Token:</label>
+            <input type="password" id="pat" name="pat" required>
+            <button type="submit">Create Repository</button>
+        </form>
+        <div id="response"></div>
+        <div id="message"></div> 
+    </div>  
+    <script src="file.js" type="module"></script>
+</body>
+</html>
